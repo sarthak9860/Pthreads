@@ -5,6 +5,7 @@
 
 void *threadfunc(void* arg) {
 	printf("I am thread %d\n", *(int*)arg);
+	sleep(1);
 	return NULL;
 }
 
